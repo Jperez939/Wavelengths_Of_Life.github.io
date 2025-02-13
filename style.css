@@ -1,6 +1,33 @@
 html {
     background-color: #FFFAF0;
 }
-h1 {
+.maintitle {
+    color: #664549;
+    font-family: "Bellota", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.mainsubtitle {
+    color: #664549;
+    font-family: "Raleway", serif;
+    font-weight: 700;
+}
+
+.mainsubtitle-myname {
+    color: #664549;
+    font-family: "Raleway", serif;
+    font-weight: 700;
+}
+
+.definition{
+    color: #664549;
+    font-family: "Raleway", serif;
+    font-weight: 500;
+}
+
+.NavigationBar {
+    font-weight: 400;
+    font-family: "Raleway", serif;
     color: #664549;
 }
