@@ -1,33 +1,123 @@
 html {
     background-color: #FFFAF0;
 }
+
+/* HOMEPAGE */
+/* STANZA 01 */
+#section0 {
+    height: 700px;
+}
 .maintitle {
     color: #664549;
     font-family: "Bellota", serif;
     font-weight: 700;
     font-style: normal;
+    font-size: 100px;
 }
 
 .mainsubtitle {
     color: #664549;
     font-family: "Raleway", serif;
     font-weight: 700;
+    font-size: 14px;
 }
 
 .mainsubtitle-myname {
     color: #664549;
     font-family: "Raleway", serif;
     font-weight: 700;
+    font-size: 14px;
 }
 
 .definition{
     color: #664549;
     font-family: "Raleway", serif;
-    font-weight: 500;
+    font-weight: 400;
+    font-size: 22px;
 }
 
-.NavigationBar {
-    font-weight: 400;
+.scrolldown {
+    font-weight: 300;
     font-family: "Raleway", serif;
     color: #664549;
+    font-size: 14px;
+}
+
+/* Navigation Bar */
+#navbar {
+    position: sticky;
+    top: 0;
+    position: fixed;
+}
+.NavigationBar {
+    font-weight: 300;
+    font-family: "Raleway", serif;
+    color: #664549;
+    font-size: 14px;
+}
+.list {
+    padding: 14px;
+    list-style-type: none;
+}
+
+/* STANZA 01 */
+#section1 {
+    height: 700px;
+}
+
+.stanza01-title {
+    color: #664549;
+    font-family: "Bellota", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 70px;
+}
+
+/* STANZA 02 */
+#section2 {
+    height: 700px;
+}
+
+.stanza02-title {
+    color: #664549;
+    font-family: "Bellota", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 70px;
+}
+
+/* STANZA 03 */
+#section3 {
+    height: 700px;
+}
+.stanza03-title {
+    color: #664549;
+    font-family: "Bellota", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 70px;
+}
+
+/* STANZA 04 */
+#section4 {
+    height: 700px;
+}
+.stanza04-title {
+    color: #664549;
+    font-family: "Bellota", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 70px;
+}
+
+/* STANZA 05 */
+#section5 {
+    height: 700px;
+}
+.stanza05-title {
+    color: #664549;
+    font-family: "Bellota", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 70px;
 }
