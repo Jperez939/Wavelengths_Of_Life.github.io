@@ -1,6 +1,17 @@
 html {
-    background-color: #FFFAF0;
-    background-image: ;
+    background-color: rgb(255, 250, 240);
+}
+
+.background-image {
+    background-image: linear-gradient(rgba(255, 250, 240, 0.5), rgba(255, 250, 240, 0.5)), url(waveline\ gradient\ copy.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* HOMEPAGE */
@@ -20,7 +31,6 @@ html {
     line-height: 100px;
     letter-spacing: 0.5px;
 }
-
 .mainsubtitle {
     color: #664549;
     font-family: "Raleway", serif;
@@ -33,7 +43,6 @@ html {
     line-height: 25px;
     letter-spacing: 0.5px;
 }
-
 .mainsubtitle-myname {
     color: #664549;
     font-family: "Raleway", serif;
@@ -45,7 +54,6 @@ html {
     left: 685px;
     letter-spacing: 0.5px;
 }
-
 .definition{
     color: #664549;
     font-family: "Raleway", serif;
@@ -58,7 +66,6 @@ html {
     line-height: 35px;
     letter-spacing: 0.5px;
 }
-
 .scrolldown {
     font-weight: 300;
     font-family: "Raleway", serif;
@@ -68,6 +75,21 @@ html {
     bottom: 79px;
     right: 45px;
     letter-spacing: 0.5px;
+    transition: 2s;
+}
+.down-arrow {
+    opacity: 30%;
+    position: absolute;
+    bottom: 23px;
+    right: 22px;
+    height: 8%;
+    width: 10%;
+    object-fit: scale-down;
+    rotate: 90deg;
+    transition:2s;
+}
+.down-arrow:hover{
+    opacity: 90%;
 }
 
 /* Navigation Bar */
@@ -79,7 +101,6 @@ html {
 .NavigationBar {
     font-weight: 300;
     font-family: "Raleway", serif;
-    color: #664549;
     font-size: 12px;
     letter-spacing: 0.5px;
 }
@@ -87,6 +108,15 @@ html {
     list-style-type: none;
     padding-top: 70px;
     padding-bottom: 20px;
+    margin-left: -285px;
+}
+.nav {
+    text-decoration: none;
+    color: #664549;
+    transition: 2s;
+}
+.nav:hover {
+    font-weight: 700;
 }
 
 /* STANZA 01 */
@@ -100,6 +130,16 @@ html {
     font-weight: 700;
     font-style: normal;
     font-size: 70px;
+    padding-left: 100px;
+    padding-top: 170px;
+}
+
+.subtitle01 {
+    color: #664549;
+    font-family: "Raleway", serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding-left: 140px;
 }
 
 /* STANZA 02 */
