@@ -58,6 +58,8 @@ html {
 .list {
     padding: 14px;
     list-style-type: none;
+    padding-top: 50px;
+    padding-bottom: 70px;
 }
 
 /* STANZA 01 */
