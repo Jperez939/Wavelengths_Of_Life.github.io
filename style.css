@@ -1,7 +1,6 @@
 html {
     background-color: rgb(255, 250, 240);
 }
-
 .background-image {
     background-image: linear-gradient(rgba(255, 250, 240, 0.5), rgba(255, 250, 240, 0.5)), url(waveline\ gradient\ copy.png);
     background-position: center;
@@ -13,6 +12,7 @@ html {
     margin-left: auto;
     margin-right: auto;
 }
+
 
 /* HOMEPAGE */
 #section0 {
@@ -42,6 +42,11 @@ html {
     left: 520px;
     line-height: 25px;
     letter-spacing: 0.5px;
+    opacity: 0;
+    animation: fadeIn 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
 }
 .mainsubtitle-myname {
     color: #664549;
@@ -53,6 +58,11 @@ html {
     top: 335px;
     left: 685px;
     letter-spacing: 0.5px;
+    opacity: 0;
+    animation: fadeIn 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
 }
 .definition{
     color: #664549;
@@ -65,7 +75,17 @@ html {
     left: 400px;
     line-height: 35px;
     letter-spacing: 0.5px;
+    opacity: 0;
+    animation: fadeIn 1s;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+    animation-duration: 3s;
 }
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
 .scrolldown {
     font-weight: 300;
     font-family: "Raleway", serif;
@@ -76,7 +96,17 @@ html {
     right: 45px;
     letter-spacing: 0.5px;
     transition: 2s;
+    opacity: 0;
+    animation: fadeIn 1s;
+    animation-delay: 10s;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
 }
+
+.scrolldown:hover {
+    font-weight:700;
+}
+
 .down-arrow {
     opacity: 30%;
     position: absolute;
@@ -87,10 +117,16 @@ html {
     object-fit: scale-down;
     rotate: 90deg;
     transition:2s;
+    opacity: 0%;
+    animation: fadeIn 1s;
+    animation-delay: 9s;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
 }
 .down-arrow:hover{
     opacity: 90%;
 }
+
 
 /* Navigation Bar */
 #navbar {
@@ -103,6 +139,11 @@ html {
     font-family: "Raleway", serif;
     font-size: 12px;
     letter-spacing: 0.5px;
+    opacity: 0;
+    animation: fadeIn 1s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
 }
 .list {
     list-style-type: none;
@@ -119,11 +160,11 @@ html {
     font-weight: 700;
 }
 
+
 /* STANZA 01 */
 #section1 {
     height: 700px;
 }
-
 .stanza01-title {
     color: #664549;
     font-family: "Bellota", serif;
@@ -133,60 +174,362 @@ html {
     padding-left: 100px;
     padding-top: 170px;
 }
-
 .subtitle01 {
     color: #664549;
     font-family: "Raleway", serif;
     font-weight: 700;
-    font-size: 20px;
-    padding-left: 140px;
+    font-size: 23px;
+    padding-left: 160px;
 }
+.lines1 {
+    color: #664549;
+    font-family: "Raleway", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 190px;
+}
+.lines2 {
+    color: #664549;
+    font-family: "Raleway", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 215px;
+}
+.lines3 {
+    color: #664549;
+    font-family: "Raleway", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 235px;
+}
+.lines4 {
+    color: #664549;
+    font-family: "Raleway", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 247px;
+}
+.doublemeaning1 {
+    font-weight: 700;
+    color: #664549;
+    font-style: italic;
+    font-family: "Raleway", serif;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    border: none;
+    background-color: rgba(255, 250, 240, 0.4);
+    border-radius: 100px;
+    padding: 2px 2px;
+    width: 30%;
+    height: 7%;
+    margin-top: 30px;
+    margin-left: 235px;
+    text-align: center;
+    transition: 2s;
+}
+.doublemeaning1:hover {
+    background-color: rgba(255, 250, 240, 1);
+}
+
 
 /* STANZA 02 */
 #section2 {
     height: 700px;
 }
-
 .stanza02-title {
+    padding-left: 235px;
+    padding-top: 170px;
     color: #664549;
     font-family: "Bellota", serif;
     font-weight: 700;
     font-style: normal;
     font-size: 70px;
 }
+.subtitle02 {
+    color: #664549;
+    font-family: "Raleway", serif;
+    font-weight: 700;
+    font-size: 23px;
+    padding-left: 490px;
+}
+.lines5 {
+    color: #664549;
+    font-family: "Raleway", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 380px;
+}
+.lines6 {
+    color: #664549;
+    font-family: "Raleway", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 400px;
+}
+.lines7 {
+    color: #664549;
+    font-family: "Raleway", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 315px;
+}
+.lines8 {
+    color: #664549;
+    font-family: "Raleway", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 390px;
+}
+.doublemeaning2 {
+    font-weight: 700;
+    color: #664549;
+    font-style: italic;
+    font-family: "Raleway", serif;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    border: none;
+    background-color: rgba(255, 250, 240, 0.4);
+    border-radius: 100px;
+    padding: 2px 2px;
+    width: 30%;
+    height: 7%;
+    margin-top: 30px;
+    margin-left: 490px;
+    text-align: center;
+    transition: 2s;
+}
+.doublemeaning2:hover {
+    background-color: rgba(255, 250, 240, 1);
+}
+
 
 /* STANZA 03 */
 #section3 {
     height: 700px;
 }
 .stanza03-title {
+    padding-left: 155px;
+    padding-top: 170px;
     color: #664549;
     font-family: "Bellota", serif;
     font-weight: 700;
     font-style: normal;
     font-size: 70px;
+}.subtitle03 {
+    color: #664549;
+    font-family: "Raleway", serif;
+    font-weight: 700;
+    font-size: 23px;
+    padding-left: 115px;
 }
+.lines9 {
+    color: #664549;
+    font-family: "Raleway", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 88px;
+}
+.lines10 {
+    color: #664549;
+    font-family: "Raleway", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 78px;
+}
+.lines11 {
+    color: #664549;
+    font-family: "Raleway", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 80px;
+}
+.lines12 {
+    color: #664549;
+    font-family: "Raleway", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 100px;
+}
+.doublemeaning3 {
+    font-weight: 700;
+    color: #664549;
+    font-style: italic;
+    font-family: "Raleway", serif;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    border: none;
+    background-color: rgba(255, 250, 240, 0.4);
+    border-radius: 100px;
+    padding: 2px 2px;
+    width: 30%;
+    height: 7%;
+    margin-top: 30px;
+    margin-left: 150px;
+    text-align: center;
+    transition: 2s;
+}
+.doublemeaning3:hover {
+    background-color: rgba(255, 250, 240, 1);
+}
+
 
 /* STANZA 04 */
 #section4 {
     height: 700px;
 }
 .stanza04-title {
+    padding-left: 360px;
+    padding-top: 170px;
     color: #664549;
     font-family: "Bellota", serif;
     font-weight: 700;
     font-style: normal;
     font-size: 70px;
 }
+.subtitle04 {
+    color: #664549;
+    font-family: "Raleway", serif;
+    font-weight: 700;
+    font-size: 23px;
+    padding-left: 565px;
+}
+.lines13 {
+    color: #664549;
+    font-family: "Raleway", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 390px;
+}
+.lines14 {
+    color: #664549;
+    font-family: "Raleway", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 350px;
+}
+.lines15 {
+    color: #664549;
+    font-family: "Raleway", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 340px;
+}
+.lines16 {
+    color: #664549;
+    font-family: "Raleway", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 345px;
+}
+.doublemeaning4 {
+    font-weight: 700;
+    color: #664549;
+    font-style: italic;
+    font-family: "Raleway", serif;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    border: none;
+    background-color: rgba(255, 250, 240, 0.4);
+    border-radius: 100px;
+    padding: 2px 2px;
+    width: 30%;
+    height: 7%;
+    margin-top: 30px;
+    margin-left: 355px;
+    text-align: center;
+    transition: 2s;
+}
+.doublemeaning4:hover {
+    background-color: rgba(255, 250, 240, 1);
+}
+
 
 /* STANZA 05 */
 #section5 {
     height: 700px;
 }
 .stanza05-title {
+    padding-left: 240px;
+    padding-top: 170px;
     color: #664549;
     font-family: "Bellota", serif;
     font-weight: 700;
     font-style: normal;
     font-size: 70px;
+}
+.subtitle05 {
+    color: #664549;
+    font-family: "Raleway", serif;
+    font-weight: 700;
+    font-size: 23px;
+    padding-left: 247px;
+}
+.lines17 {
+    color: #664549;
+    font-family: "Raleway", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 235px;
+}
+.lines18 {
+    color: #664549;
+    font-family: "Raleway", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 217px;
+}
+.lines19 {
+    color: #664549;
+    font-family: "Raleway", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 195px;
+}
+.lines20 {
+    color: #664549;
+    font-family: "Raleway", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 175px;
+}
+.doublemeaning5 {
+    font-weight: 700;
+    color: #664549;
+    font-style: italic;
+    font-family: "Raleway", serif;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    border: none;
+    background-color: rgba(255, 250, 240, 0.4);
+    border-radius: 100px;
+    padding: 2px 2px;
+    width: 30%;
+    height: 7%;
+    margin-top: 30px;
+    margin-left: 125px;
+    text-align: center;
+    transition: 2s;
+}
+.doublemeaning5:hover {
+    background-color: rgba(255, 250, 240, 1);
 }
