@@ -108,7 +108,6 @@ html {
 }
 
 .down-arrow {
-    opacity: 30%;
     position: absolute;
     bottom: 23px;
     right: 22px;
@@ -122,9 +121,6 @@ html {
     animation-delay: 9s;
     animation-fill-mode: forwards;
     animation-duration: 2s;
-}
-.down-arrow:hover{
-    opacity: 90%;
 }
 
 
@@ -234,6 +230,16 @@ html {
 .doublemeaning1:hover {
     background-color: rgba(255, 250, 240, 1);
 }
+.section1separator {
+    border-radius: 100px;
+    background: rgba(255, 250, 240, 1);
+    padding: 5px;
+    width: 400px;
+    height: 1px;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: -600px;
+}
 
 
 /* STANZA 02 */
@@ -256,6 +262,9 @@ html {
     font-size: 23px;
     padding-left: 490px;
 }
+.subtitle02-dm {
+    padding-left: 390px;
+}
 .lines5 {
     color: #664549;
     font-family: "Raleway", serif;
@@ -263,6 +272,9 @@ html {
     font-size: 20px;
     line-height: 30px;
     padding-left: 380px;
+}
+.dm2-1 {
+    padding-left: 294px;
 }
 .lines6 {
     color: #664549;
@@ -272,6 +284,9 @@ html {
     line-height: 30px;
     padding-left: 400px;
 }
+.dm2-2 {
+    padding-left: 318px;
+}
 .lines7 {
     color: #664549;
     font-family: "Raleway", serif;
@@ -280,6 +295,9 @@ html {
     line-height: 30px;
     padding-left: 315px;
 }
+.dm2-3 {
+    padding-left: 330px;
+}
 .lines8 {
     color: #664549;
     font-family: "Raleway", serif;
@@ -287,6 +305,9 @@ html {
     font-size: 20px;
     line-height: 30px;
     padding-left: 390px;
+}
+.dm2-4 {
+    padding-left: 370px;
 }
 .doublemeaning2 {
     font-weight: 700;
@@ -304,10 +325,19 @@ html {
     margin-top: 30px;
     margin-left: 490px;
     text-align: center;
-    transition: 2s;
 }
 .doublemeaning2:hover {
     background-color: rgba(255, 250, 240, 1);
+}
+.section2separator {
+    border-radius: 100px;
+    background: rgba(255, 250, 240, 1);
+    padding: 5px;
+    width: 400px;
+    height: 1px;
+    position: absolute;
+    margin-left: -25px;
+    margin-top: -600px;
 }
 
 
@@ -383,6 +413,16 @@ html {
 .doublemeaning3:hover {
     background-color: rgba(255, 250, 240, 1);
 }
+.section3separator {
+    border-radius: 100px;
+    background: rgba(255, 250, 240, 1);
+    padding: 5px;
+    width: 400px;
+    height: 1px;
+    position: absolute;
+    margin-left: 525px;
+    margin-top: -600px;
+}
 
 
 /* STANZA 04 */
@@ -405,6 +445,9 @@ html {
     font-size: 23px;
     padding-left: 565px;
 }
+.subtitle04-dm {
+    padding-left: 489px;
+}
 .lines13 {
     color: #664549;
     font-family: "Raleway", serif;
@@ -412,6 +455,9 @@ html {
     font-size: 20px;
     line-height: 30px;
     padding-left: 390px;
+}
+.dm4-1 {
+    padding-left: 332px;
 }
 .lines14 {
     color: #664549;
@@ -421,6 +467,9 @@ html {
     line-height: 30px;
     padding-left: 350px;
 }
+.dm4-2 {
+    padding-left: 328px;
+}
 .lines15 {
     color: #664549;
     font-family: "Raleway", serif;
@@ -429,6 +478,9 @@ html {
     line-height: 30px;
     padding-left: 340px;
 }
+.dm4-3 {
+    padding-left: 299px;
+}
 .lines16 {
     color: #664549;
     font-family: "Raleway", serif;
@@ -436,6 +488,9 @@ html {
     font-size: 20px;
     line-height: 30px;
     padding-left: 345px;
+}
+.dm4-4 {
+    padding-left: 262px;
 }
 .doublemeaning4 {
     font-weight: 700;
@@ -457,6 +512,16 @@ html {
 }
 .doublemeaning4:hover {
     background-color: rgba(255, 250, 240, 1);
+}
+.section4separator {
+    border-radius: 100px;
+    background: rgba(255, 250, 240, 1);
+    padding: 5px;
+    width: 400px;
+    height: 1px;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: -600px;
 }
 
 
@@ -532,4 +597,14 @@ html {
 }
 .doublemeaning5:hover {
     background-color: rgba(255, 250, 240, 1);
+}
+.section5separator {
+    border-radius: 100px;
+    background: rgba(255, 250, 240, 1);
+    padding: 5px;
+    width: 400px;
+    height: 1px;
+    position: absolute;
+    margin-left: 470px;
+    margin-top: -600px;
 }
