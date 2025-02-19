@@ -40,6 +40,9 @@ function stanza01() {
     } else {
       x.innerHTML = "LINES 1-4";
     }
+
+    var element = document.getElementById("stanza01lines");
+    element.classList.toggle("stanza01lines");
 }
 
 function stanza02() {
@@ -99,6 +102,9 @@ function stanza02() {
 
     var element = document.getElementById("dm2-4");
     element.classList.toggle("dm2-4");
+
+    var element = document.getElementById("stanza02lines");
+    element.classList.toggle("stanza02lines");
 }
 
 function stanza03() {
@@ -143,6 +149,9 @@ function stanza03() {
     } else {
       x.innerHTML = "LINES 9-12";
     }
+
+    var element = document.getElementById("stanza03lines");
+    element.classList.toggle("stanza03lines");
 }
 
 function stanza04() {
@@ -202,6 +211,9 @@ function stanza04() {
 
     var element = document.getElementById("dm4-4");
     element.classList.toggle("dm4-4");
+
+    var element = document.getElementById("stanza04lines");
+    element.classList.toggle("stanza04lines");
 }
 
 function stanza05() {
@@ -246,4 +258,7 @@ function stanza05() {
     } else {
       x.innerHTML = "LINES 17-20";
     }
+
+    var element = document.getElementById("stanza05lines");
+    element.classList.toggle("stanza05lines");
 }

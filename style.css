@@ -81,30 +81,10 @@ html {
     animation-fill-mode: forwards;
     animation-duration: 3s;
 }
+
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
-}
-
-.scrolldown {
-    font-weight: 300;
-    font-family: "Raleway", serif;
-    color: #664549;
-    font-size: 12px;
-    position: absolute;
-    bottom: 79px;
-    right: 45px;
-    letter-spacing: 0.5px;
-    transition: 2s;
-    opacity: 0;
-    animation: fadeIn 1s;
-    animation-delay: 10s;
-    animation-fill-mode: forwards;
-    animation-duration: 2s;
-}
-
-.scrolldown:hover {
-    font-weight:700;
 }
 
 .down-arrow {
@@ -122,6 +102,7 @@ html {
     animation-fill-mode: forwards;
     animation-duration: 2s;
 }
+
 
 
 /* Navigation Bar */
@@ -211,13 +192,13 @@ html {
 }
 .doublemeaning1 {
     font-weight: 700;
-    color: #664549;
+    color: rgb(255, 250, 240);
     font-style: italic;
     font-family: "Raleway", serif;
     font-size: 12px;
     letter-spacing: 0.5px;
     border: none;
-    background-color: rgba(255, 250, 240, 0.4);
+    background-color: rgba(102, 69, 73, 0.7);
     border-radius: 100px;
     padding: 2px 2px;
     width: 30%;
@@ -228,7 +209,7 @@ html {
     transition: 2s;
 }
 .doublemeaning1:hover {
-    background-color: rgba(255, 250, 240, 1);
+    background-color: rgba(102, 69, 73, 1);
 }
 .section1separator {
     border-radius: 100px;
@@ -245,6 +226,9 @@ html {
     top: 820px;
     right: 690px;
 }*/
+.stanza01lines {
+    width: 24%;
+}
 
 
 /* STANZA 02 */
@@ -316,13 +300,13 @@ html {
 }
 .doublemeaning2 {
     font-weight: 700;
-    color: #664549;
+    color: rgb(255, 250, 240);
     font-style: italic;
     font-family: "Raleway", serif;
     font-size: 12px;
     letter-spacing: 0.5px;
     border: none;
-    background-color: rgba(255, 250, 240, 0.4);
+    background-color: rgba(102, 69, 73, 0.7);
     border-radius: 100px;
     padding: 2px 2px;
     width: 30%;
@@ -330,9 +314,10 @@ html {
     margin-top: 30px;
     margin-left: 490px;
     text-align: center;
+    transition: 2s;
 }
 .doublemeaning2:hover {
-    background-color: rgba(255, 250, 240, 1);
+    background-color: rgba(102, 69, 73, 1);
 }
 .section2separator {
     border-radius: 100px;
@@ -343,6 +328,10 @@ html {
     position: absolute;
     margin-left: -25px;
     margin-top: -600px;
+}
+.stanza02lines {
+    width: 24%;
+    margin-left: 540px;
 }
 
 
@@ -399,13 +388,13 @@ html {
 }
 .doublemeaning3 {
     font-weight: 700;
-    color: #664549;
+    color: rgb(255, 250, 240);
     font-style: italic;
     font-family: "Raleway", serif;
     font-size: 12px;
     letter-spacing: 0.5px;
     border: none;
-    background-color: rgba(255, 250, 240, 0.4);
+    background-color: rgba(102, 69, 73, 0.7);
     border-radius: 100px;
     padding: 2px 2px;
     width: 30%;
@@ -416,7 +405,7 @@ html {
     transition: 2s;
 }
 .doublemeaning3:hover {
-    background-color: rgba(255, 250, 240, 1);
+    background-color: rgba(102, 69, 73, 1);
 }
 .section3separator {
     border-radius: 100px;
@@ -427,6 +416,9 @@ html {
     position: absolute;
     margin-left: 525px;
     margin-top: -600px;
+}
+.stanza03lines {
+    width: 24%;
 }
 
 
@@ -499,13 +491,13 @@ html {
 }
 .doublemeaning4 {
     font-weight: 700;
-    color: #664549;
+    color: rgb(255, 250, 240);
     font-style: italic;
     font-family: "Raleway", serif;
     font-size: 12px;
     letter-spacing: 0.5px;
     border: none;
-    background-color: rgba(255, 250, 240, 0.4);
+    background-color: rgba(102, 69, 73, 0.7);
     border-radius: 100px;
     padding: 2px 2px;
     width: 30%;
@@ -516,7 +508,7 @@ html {
     transition: 2s;
 }
 .doublemeaning4:hover {
-    background-color: rgba(255, 250, 240, 1);
+    background-color: rgba(102, 69, 73, 1);
 }
 .section4separator {
     border-radius: 100px;
@@ -527,6 +519,10 @@ html {
     position: absolute;
     margin-left: 60px;
     margin-top: -600px;
+}
+.stanza04lines {
+    width: 24%;
+    margin-left: 407px;
 }
 
 
@@ -584,13 +580,13 @@ html {
 }
 .doublemeaning5 {
     font-weight: 700;
-    color: #664549;
+    color: rgb(255, 250, 240);
     font-style: italic;
     font-family: "Raleway", serif;
     font-size: 12px;
     letter-spacing: 0.5px;
     border: none;
-    background-color: rgba(255, 250, 240, 0.4);
+    background-color: rgba(102, 69, 73, 0.7);
     border-radius: 100px;
     padding: 2px 2px;
     width: 30%;
@@ -601,7 +597,7 @@ html {
     transition: 2s;
 }
 .doublemeaning5:hover {
-    background-color: rgba(255, 250, 240, 1);
+    background-color: rgba(102, 69, 73, 1);
 }
 .section5separator {
     border-radius: 100px;
@@ -612,4 +608,7 @@ html {
     position: absolute;
     margin-left: 470px;
     margin-top: -600px;
+}
+.stanza05lines {
+    width: 24%;
 }
